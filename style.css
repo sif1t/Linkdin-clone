@@ -45,10 +45,26 @@ a{
     font-size: 14px;
     margin: 5px 8px;
     padding-right: 5px;
+    position: relative;
 }
 
 .navbar-center ul li a img{
     width: 30px;
+}
+
+.navbar-center ul li a::after{
+    content: '';
+    width: 0; 
+    height: 2px;
+    background: #045be6;
+    position: absolute;
+    bottom: -15px;
+    transition: width 0,3 s
+}
+
+.navbar-center ul li a:hover::after,
+.navbar-center ul li a.active-link::after{
+    width:100% ;
 }
 
 .nav-profile-img{
