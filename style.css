@@ -90,3 +90,65 @@ a{
     background: #41db51;
     position: absolute;
 }
+
+.search-box{
+    background: #f0f2f5;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+
+.search-box img {
+    width: 14px;
+}
+
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+
+/* navbar section end  */
+
+/* container section start  */
+
+.container{
+    padding: 20px 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+/* left-sidebar start */
+ .left-sidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+ }
+
+/* left-sidebar end  */
+
+/* right-sidebar start */
+ .right-sidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+ }
+/* right-sidebar end  */
+
+/* main-content start  */
+ .main-content{
+
+ }
+/* main-content end  */
+
+
