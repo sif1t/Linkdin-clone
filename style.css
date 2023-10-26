@@ -240,14 +240,24 @@ a{
 
 
 
-
-
-
 /* right-sidebar start */
  .right-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
  }
+ 
+ .sidebar-news{
+    background: #fff;
+    padding: 10px 25px;
+ }
+ .info-icon{
+    width: 15px;
+    float: right;
+    margin-top: 15px;
+ }
+
+
+
 /* right-sidebar end  */
 
 /* main-content start  */
