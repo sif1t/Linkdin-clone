@@ -430,6 +430,35 @@ a{
     margin-left: 3px;
 }
 
+.post{
+    background: #fff;
+    padding: 20px 25px 5px;
+    margin: 5px 0 15px;
+}
+
+.post-author{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.post-author img {
+width: 35px;
+border-radius: 50%;
+margin-right: 10px;
+margin-top: 5px;
+}
+
+.post-author h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+.post-author small{
+    display: block;
+    margin-bottom: -2px;
+}
+
 
 
 
