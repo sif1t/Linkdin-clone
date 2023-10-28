@@ -347,6 +347,40 @@ a{
  .main-content{
     flex-basis: 47%;
  }
+
+.craete-post{
+    background: #fff;
+}
+
+.craete-post-input{
+    padding: 20px 25px 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.craete-post-input img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.craete-post-input textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    resize: none;
+    background: transparent;
+    margin-top: 8px;
+}
+
+ ::placeholder{
+    font-weight: 500;
+}
+
+
+
+
+
 /* main-content end  */
 
 
