@@ -458,7 +458,10 @@ a{
     margin-bottom: -3px;
 }
 
-
+.post p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
 
 
 
