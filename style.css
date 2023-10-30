@@ -602,5 +602,58 @@ a{
     position: sticky;
     top: 73%;
 }
+
+.profile-container{
+    background: #fff;
+}
+.profile-container-inner{
+    padding: 0 4% 10px;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -75px;
+    padding: 5px;
+    background: #fff;
+}
+.profile-container h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: #222;
+}
+.profile-container p{
+    margin-top: 5px;
+}
+
+.profile-container p a {
+    color: #045be6;
+    font-weight: 500;
+}
+
+.mutual-connection{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.mutual-connection img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profile-btn{
+    margin: 20px 0;
+}
+.profile-btn a {
+    display: inline-flex;
+    align-items: center;
+    background: #e4e6eb;
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+
 /* profile-page end */
 
