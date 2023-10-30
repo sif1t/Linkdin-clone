@@ -587,3 +587,20 @@ a{
     margin-right: 15px;
 }
 
+/* profile-drop-down-menu end  */
+
+
+/* profile-page start  */
+
+.profile-main {
+    flex-basis: 73%;
+}
+
+.profile-sidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 73%;
+}
+/* profile-page end */
+
