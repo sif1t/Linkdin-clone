@@ -653,6 +653,37 @@ a{
     border-radius: 4px;
     margin-right: 10px;
 }
+.profile-btn .primary-btn{
+    background: #045be6;
+    color: #fff;
+}
+
+.profile-description{
+    background: #fff;
+    padding: 20px 4% 30px;
+    margin: 12px 0;
+}
+.profile-description h2{
+    color: #333;
+    margin: 10px 0 20px;
+    font-weight: 600;
+}
+.see-more-link{
+    display: block;
+    text-align: right;
+    font-size: 15px;
+}
+
+.profile-desh-row{
+    display: flex;
+    align-items:flex-start;
+    margin: 20px 0;
+}
+.profile-desh-row img{
+    width: 50px;
+    margin-right: 25px;
+    margin-top: 5px;
+}
 
 
 /* profile-page end */
