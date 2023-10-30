@@ -684,6 +684,27 @@ a{
     margin-right: 25px;
     margin-top: 5px;
 }
+.profile-desh-row div{
+    width: 100%;
+}
+.profile-desh-row h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+.profile-desh-row b {
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+}
+.profile-desh-row p {
+    margin-top: 15px;
+}
+.profile-desh-row hr{
+    border: 0;
+    border-bottom: 1px solid #999;
+    margin-top: 10px;
+}
 
 
 /* profile-page end */
