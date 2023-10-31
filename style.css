@@ -787,6 +787,10 @@ a{
     justify-content: flex-start;
 }
 
+#showMoreLink{
+    display: none;
+}
+
 /* profile-rifgt-sidebar end  */
 
 /* profile-page end */
@@ -834,6 +838,33 @@ a{
     }
     .post-activity-link img {
         margin-right: 0;
+    }
+
+    /* profile page  */
+
+    .profile-main, .profile-sidebar{
+        flex-basis: 100%;
+    }
+    .profile-container{
+        font-size: 14px;
+    }
+    .profile-pic{
+        width: 100px;
+        margin-top: -50px;
+    }
+    .profile-description{
+        font-size: 14px;
+    }
+    #showMoreLink{
+        display: block;
+        width: fit-content;
+        margin: 10px auto;
+    }
+    .sidebar-activity{
+        display: none;
+    }
+    .sidebar-activity.open-activity{
+        display: block;
     }
     
 }
