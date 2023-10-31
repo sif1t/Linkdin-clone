@@ -776,6 +776,17 @@ a{
     border-radius: 30px;
     font-weight: 500;
 }
+.profile-footer{
+    padding: 0 6% 30px;
+}
+.profile-footer .sidebar-useful-links{
+    text-align: left;
+    padding: 0;
+}
+.profile-footer .copyright-msg{
+    justify-content: flex-start;
+}
+
 
 
 
