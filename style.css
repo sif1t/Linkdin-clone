@@ -600,7 +600,7 @@ a{
     flex-basis: 25%;
     align-self: flex-start;
     position: sticky;
-    top: 73%;
+    top: 73px;
 }
 
 .profile-container{
@@ -737,5 +737,16 @@ a{
     font-weight: 500;
 
 }
+
+/* profile-rifgt-sidebar start  */
+.profile-sidebar .sidebar-ad{
+    margin: 0;
+}
+
+
+
+
+
+
 /* profile-page end */
 
