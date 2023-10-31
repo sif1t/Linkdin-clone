@@ -787,10 +787,54 @@ a{
     justify-content: flex-start;
 }
 
-
-
-
-
+/* profile-rifgt-sidebar end  */
 
 /* profile-page end */
+
+
+
+/* media query for small screen  */
+
+@media only screen and (max-width: 600px) {
+    .search-box{
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+    .search-box input {
+        width: 0;
+        padding: 0;
+    }
+    .navbar-center ul li a span {
+        display: none;
+    }
+    .navbar-center ul li a {
+        padding-right: 0;
+        margin: 5px;
+    }
+    .nav-profile-img{
+        width: 30px;
+    }
+    .container{
+        padding: 15px 3%;
+    }
+    .left-sidebar, .right-sidebar{
+        flex-basis: 100%;
+        position: relative;
+        top: unset;
+    }
+    .main-content{
+        flex-basis: 100%;
+    }
+    .post-status div{
+        margin: 2px 0;
+    }
+    .post-activity-link span {
+        display: none;
+    }
+    .post-activity-link img {
+        margin-right: 0;
+    }
+    
+}
 
