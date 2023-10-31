@@ -706,6 +706,17 @@ a{
     margin-top: 10px;
 }
 
+.experience-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.experience-link img {
+    width: 20px;
+    margin-left: 8px;
+}
 
 /* profile-page end */
 
