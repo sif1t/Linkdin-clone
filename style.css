@@ -718,5 +718,24 @@ a{
     margin-left: 8px;
 }
 
+.skils-btn{
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 6px 18px;
+    border: 1px solid #777;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.language-btn{
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 6px 18px;
+    background: #e4e6eb;
+    font-size: 12px;
+    font-weight: 500;
+
+}
 /* profile-page end */
 
